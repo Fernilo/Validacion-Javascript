@@ -107,7 +107,6 @@
 			<p class="nombre"><input class="input" placeholder="Nombre" onblur="revisar(this)"     onkeyup="revisar(this)" id="nombre" name="nombre" autocomplete="off" type="text"></p>
 			<p class="email"><input class="input" placeholder="Email*" onblur="revisar(this);revisarEmail(this)"     onkeyup="revisar(this);revisarEmail(this)" id="email" name="email" autocomplete="off" type="text"></p>
 			<p class="telefono"><input class="input" placeholder="Telefono*" onblur="revisar(this);revisaNumero(this)"     onkeyup="revisar(this);revisaNumero(this)" id="telefono" name="telefono" autocomplete="off" type="text"></p>
-			<p class="telefono"><input class="input" placeholder="Telefono*" onblur="revisar(this);revisaNumero(this)"     onkeyup="revisar(this);revisaNumero(this)" id="telefono" name="telefono" autocomplete="off" type="text"></p>
 			<p class="mensaje"><textarea class="input" name="mensaje" id="mensaje" autocomplete="off" placeholder="Mensaje" onblur="revisar(this);revisarLongitud(this,30)"     onkeyup="revisar(this);revisarLongitud(this,30)" cols="30" rows="10"></textarea></p>
 			<div class="enviar"><input type="submit" id="enviar" value="ENVIAR">
 									<div class="transicion"></div>
